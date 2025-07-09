@@ -44,7 +44,7 @@ function Clustering() {
             <select id = "clusterModel">
                 <option value = "kmeans">KMeans</option>
                 <option value = "dbscan">DBScan</option>
-                <option value = "gmm">Gaussian Mixture</option>
+                {/* <option value = "gmm">Gaussian Mixture</option> */}
                 <option value = "birch">Birch</option>
             </select><br /><br />
             <label>Hyperparameter Tuning: </label>
